@@ -1,6 +1,6 @@
 import sys
 from PySide6.QtWidgets import QMainWindow, QApplication, QMessageBox
-from UI import Ui_MainWindow
+from 인사하기.UI import Ui_MainWindow
 
 class MainWindow(QMainWindow):
     def __init__(self):

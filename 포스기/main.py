@@ -176,7 +176,7 @@ class MainWindow(QMainWindow):
         self.load()
 
     def change_order(self, r, c):
-        status = ["waiting","processing","delivery","done","done"]
+        status = ["waiting","processing","delivery","done","done"] #  뭔소리라? 자료구조 알고리즘인 것 같은데
         orders[r]["status"]= status[status.index(orders[r]["status"]) + 1]
 
         self.load()
